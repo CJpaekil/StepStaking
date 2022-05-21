@@ -1,4 +1,5 @@
 
+import { Link } from "react-router-dom";
 const Stake = () => {
     return (
         <div className="home-stake">
@@ -16,7 +17,7 @@ const Stake = () => {
                                 <div className="home-whitegeneraltext">Get rewards every day!</div>
                             </div>
                             <div className="d-flex justify-content-start">
-                                <button className="btn-staking">Go to Staking</button>
+                                <Link to="/claim"><button className="btn-staking">Go to Staking</button></Link>
                             </div>
                         </div>
                     </div>

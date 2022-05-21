@@ -1,10 +1,10 @@
-
+import { Link } from "react-router-dom";
 const Howork = () => {
     return (
         <>
             <div className="claim-reward">
                 <div className="container">
-                    <div className="d-flex justify-content-start"><img src="/assets/images/arrow.png" style={{ marginRight: "10px" }} width="25" /><div className="claim-backtext">BACK</div></div>
+                    <Link to="/Approve" style={{ textDecoration: "none" }}><div className="d-flex justify-content-start"><img src="/assets/images/arrow.png" style={{ marginRight: "10px" }} width="25" /><div className="claim-backtext">BACK</div></div></Link>
                     <div className="single-line claim-rewardgap">
                         <div className="claim-rewardtext">HOW IT WORKS</div>
                     </div>

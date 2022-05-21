@@ -330,7 +330,7 @@
     }
 
     .signal {
-        width: 1005;
+        width: 100px;
         margin-right: 40px;
     }
 
@@ -589,6 +589,138 @@
     .single-line {
         display: flex;
     }
+
+
+    /* claim */
+    .claim-reward {
+        background-color: #FFB449;
+        padding: 50px 0px;
+    }
+
+    .claim-backtext {
+        text-align: left;
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 22px;
+        text-transform: uppercase;
+        color: #2C2F36;
+    }
+
+    .claim-rewardtext {
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 111px;
+        text-transform: uppercase;
+        color: #2C2F36;
+    }
+
+    .claim-rewardgap {
+        padding: 20px 0px;
+    }
+
+    .claim-rewardopacity {
+        font-weight: 900;
+        font-size: 36px;
+        line-height: 44px;
+        text-transform: uppercase;
+        color: #2C2F36;
+        opacity: 0.4;
+        text-align: left;
+    }
+
+    .wallet-connect {
+        padding: 50px 0px 20px 0px;
+        background-color: #2C2F36;
+    }
+
+    .wallet-bg {
+        background: url(/assets/images/rules_bg.png);
+        background-size: 100% 100%;
+        position: relative;
+        padding: 40px 60px;
+        display: flex;
+        align-items: center;
+    }
+
+    .claim-approve {
+        width: 33% !important;
+        padding: 0px 10px;
+    }
+
+    .claim-approve .numbertext {
+        font-weight: 900;
+        font-size: 58px;
+        line-height: 70px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+
+    }
+
+    .claim-approve .fitfitext {
+        font-weight: 900;
+        font-size: 22px;
+        line-height: 27px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        opacity: 0.4;
+    }
+
+    .claim-approve .maxtext {
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 22px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        opacity: 0.4;
+        text-align: left;
+    }
+
+    .btn-approve {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #FFB449;
+        border-radius: 6px;
+        border: none;
+        width: 100%;
+        height: 100%;
+    }
+
+    .walletconnection-left {
+        width: 66% !important;
+        padding: 0px 10px;
+    }
+
+    .signal {
+        width: 60px;
+        margin-right: 40px;
+    }
+
+    .howorks-text {
+        text-align: left;
+        background-color: #2C2F36;
+        padding: 30px 0px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        color: #FFFFFF;
+    }
+
+    .fitfi {
+        opacity: 1;
+        color: white;
+        margin-top: 28px;
+    }
+
+    .opsvoty-fitfi {
+        margin-top: 35px;
+    }
+
+    .withrawCombine {
+        display: flex;
+        justify-content: end;
+        ;
+    }
 }
 
 @media (min-width:768px) and (max-width:992px) {
@@ -845,6 +977,139 @@
 
     .single-line {
         display: flex;
+    }
+
+
+    /* claim */
+    .claim-reward {
+        background-color: #FFB449;
+        padding: 50px 0px;
+    }
+
+    .claim-backtext {
+        text-align: left;
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 22px;
+        text-transform: uppercase;
+        color: #2C2F36;
+    }
+
+    .claim-rewardtext {
+        font-weight: 900;
+        font-size: 50px;
+        line-height: 111px;
+        text-transform: uppercase;
+        color: #2C2F36;
+    }
+
+    .claim-rewardgap {
+        padding: 20px 0px;
+    }
+
+    .claim-rewardopacity {
+        font-weight: 900;
+        font-size: 26px;
+        line-height: 44px;
+        text-transform: uppercase;
+        color: #2C2F36;
+        opacity: 0.4;
+        text-align: left;
+    }
+
+    .wallet-connect {
+        padding: 50px 0px 20px 0px;
+        background-color: #2C2F36;
+    }
+
+    .wallet-bg {
+        background: url(/assets/images/rules_bg.png);
+        background-size: 100% 100%;
+        position: relative;
+        padding: 30px 30px;
+        display: flex;
+        align-items: center;
+    }
+
+    .claim-approve {
+        width: 37% !important;
+        padding: 0px 10px;
+    }
+
+    .claim-approve .numbertext {
+        font-weight: 900;
+        font-size: 58px;
+        line-height: 70px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+
+    }
+
+    .claim-approve .fitfitext {
+        font-weight: 900;
+        font-size: 22px;
+        line-height: 27px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        opacity: 0.4;
+    }
+
+    .claim-approve .maxtext {
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 22px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        opacity: 0.4;
+        text-align: left;
+    }
+
+    .btn-approve {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #FFB449;
+        border-radius: 6px;
+        border: none;
+        width: 100%;
+        height: 100%;
+    }
+
+    .walletconnection-left {
+        width: 63% !important;
+        padding: 0px 10px;
+    }
+
+    .signal {
+        width: 50px;
+        height: 50px;
+        margin-right: 40px;
+    }
+
+    .howorks-text {
+        text-align: left;
+        background-color: #2C2F36;
+        padding: 30px 0px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        color: #FFFFFF;
+    }
+
+    .fitfi {
+        opacity: 1;
+        color: white;
+        margin-top: 20px;
+    }
+
+    .opsvoty-fitfi {
+        margin-top: 35px;
+    }
+
+    .withrawCombine {
+        display: flex;
+        justify-content: end;
+        ;
     }
 }
 
@@ -1109,6 +1374,164 @@
     .huobi {
         width: 125px;
     }
+
+    /* claim */
+    .claim-reward {
+        background-color: #FFB449;
+        padding: 50px 0px;
+    }
+
+    .claim-backtext {
+        text-align: left;
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 22px;
+        text-transform: uppercase;
+        color: #2C2F36;
+    }
+
+    .claim-rewardtext {
+        text-align: left;
+        font-weight: 900;
+        font-size: 50px;
+        line-height: 111px;
+        text-transform: uppercase;
+        color: #2C2F36;
+    }
+
+    .claim-rewardgap {
+        padding: 20px 0px;
+    }
+
+    .claim-rewardopacity {
+        font-weight: 900;
+        font-size: 26px;
+        line-height: 44px;
+        text-transform: uppercase;
+        color: #2C2F36;
+        opacity: 0.4;
+        text-align: left;
+    }
+
+    .wallet-connect {
+        padding: 50px 0px 20px 0px;
+        background-color: #2C2F36;
+    }
+
+    .wallet-bg {
+        background: url(/assets/images/rules_bg.png);
+        background-size: 100% 100%;
+        position: relative;
+        padding: 30px 30px;
+        display: flex;
+        align-items: center;
+    }
+
+    .claim-approve {
+        width: 100% !important;
+        padding: 0px 10px;
+    }
+
+    .claim-approve .numbertext {
+        font-weight: 900;
+        font-size: 58px;
+        line-height: 70px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+
+    }
+
+    .claim-approve .fitfitext {
+        font-weight: 900;
+        font-size: 22px;
+        line-height: 27px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        opacity: 0.4;
+    }
+
+    .claim-approve .maxtext {
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 22px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        opacity: 0.4;
+        text-align: left;
+    }
+
+    .btn-approve {
+        padding: 50px;
+        margin-top: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #FFB449;
+        border-radius: 12px;
+        border: none;
+        width: 100%;
+        height: 100%;
+    }
+
+    .walletconnection-left {
+        width: 100% !important;
+        padding: 0px 10px;
+    }
+
+    .signal {
+        width: 50px;
+        height: 50px;
+        margin-right: 40px;
+    }
+
+    .howorks-text {
+        text-align: left;
+        background-color: #2C2F36;
+        padding: 30px 0px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        color: #FFFFFF;
+    }
+
+    .fitfi {
+        opacity: 1;
+        color: white;
+        margin-top: 27px;
+    }
+
+    .opsvoty-fitfi {
+        margin-top: 35px;
+    }
+
+    .withrawCombine {
+        display: flex;
+        justify-content: end;
+
+    }
+
+    .reward-number {
+        font-weight: 900;
+        font-size: 48px !important;
+        line-height: 78px;
+        /* identical to box height */
+
+        text-transform: uppercase;
+
+        color: #FFFFFF;
+    }
+
+    .claim-approveorder1 {
+        order: 1;
+    }
+
+    .claim-approveorder2 {
+        order: 2;
+    }
+
+    .claim-approveorder3 {
+        order: 3;
+    }
 }
 
 @media (max-width:568px) {
@@ -1365,5 +1788,168 @@
 
     .huobi {
         width: 125px;
+    }
+
+    .claim-reward {
+        background-color: #FFB449;
+        padding: 50px 0px;
+    }
+
+    .claim-backtext {
+        text-align: left;
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 22px;
+        text-transform: uppercase;
+        color: #2C2F36;
+    }
+
+    .claim-rewardtext {
+        text-align: left;
+        font-weight: 900;
+        font-size: 34px;
+        line-height: 111px;
+        text-transform: uppercase;
+        color: #2C2F36;
+    }
+
+    .claim-rewardgap {
+        padding: 20px 0px;
+    }
+
+    .claim-rewardopacity {
+        font-weight: 900;
+        font-size: 26px;
+        line-height: 44px;
+        text-transform: uppercase;
+        color: #2C2F36;
+        opacity: 0.4;
+        text-align: left;
+    }
+
+    .wallet-connect {
+        padding: 50px 0px 20px 0px;
+        background-color: #2C2F36;
+    }
+
+    .wallet-bg {
+        background: url(/assets/images/rules_bg.png);
+        background-size: 100% 100%;
+        position: relative;
+        padding: 30px 30px;
+        display: flex;
+        align-items: center;
+    }
+
+    .claim-approve {
+        width: 100% !important;
+        padding: 0px 10px;
+    }
+
+    .claim-approve .numbertext {
+        font-weight: 900;
+        font-size: 58px;
+        line-height: 70px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+
+    }
+
+    .claim-approve .fitfitext {
+        font-weight: 900;
+        font-size: 22px;
+        line-height: 27px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        opacity: 0.4;
+    }
+
+    .claim-approve .maxtext {
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 22px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        opacity: 0.4;
+        text-align: left;
+    }
+
+    .btn-approve {
+        padding: 50px;
+        margin-top: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #FFB449;
+        border-radius: 12px;
+        border: none;
+        width: 100%;
+        height: 100%;
+    }
+
+    .walletconnection-left {
+        width: 100% !important;
+        padding: 0px 10px;
+    }
+
+    .signal {
+        width: 50px;
+        height: 50px;
+        margin-right: 40px;
+    }
+
+    .howorks-text {
+        text-align: left;
+        background-color: #2C2F36;
+        padding: 30px 0px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        color: #FFFFFF;
+    }
+
+    .fitfi {
+        opacity: 1;
+        color: white;
+        margin-top: 32px;
+    }
+
+    .opsvoty-fitfi {
+        margin-top: 35px;
+    }
+
+    .withrawCombine {
+        order: 3;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .reward-number {
+        font-weight: 900;
+        font-size: 65px !important;
+        line-height: 78px;
+        /* identical to box height */
+
+        text-transform: uppercase;
+
+        color: #FFFFFF;
+    }
+
+    .claim-approveorder1 {
+        order: 1;
+    }
+
+    .claim-approveorder2 {
+        order: 2;
+    }
+
+    .claim-approveorder3 {
+        margin-top: 15px !important;
+        order: 3;
+    }
+
+    .claim-stakedyou {
+        display: none;
     }
 }

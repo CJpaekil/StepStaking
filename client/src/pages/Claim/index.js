@@ -13,7 +13,7 @@ const Claim = () => {
                 <Reward />
             </div>
             <div>
-                <ApproveStakiing />
+                <Walletconnect />
             </div>
         </>
     )
