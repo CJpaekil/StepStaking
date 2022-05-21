@@ -23,6 +23,13 @@
 
     }
 
+    .claimlink {
+        color: #FFB449 !important;
+        border-bottom: 1px solid #FFB449;
+        margin-right: 10px;
+        padding-bottom: 5px;
+    }
+
     .home-about {
         background-color: #FFB449;
         padding: 67px 0px;
@@ -40,10 +47,9 @@
 
     .home-rules-bg {
         background: url(/assets/images/rules_bg.png);
-        background-size: cover;
+        background-size: 100% 100%;
         position: relative;
         padding: 60px 80px;
-        height: 440px;
         display: flex;
         align-items: center;
     }
@@ -267,10 +273,9 @@
 
     .wallet-bg {
         background: url(/assets/images/rules_bg.png);
-        background-size: cover;
+        background-size: 100% 100%;
         position: relative;
         padding: 50px 70px;
-        height: 340px;
         display: flex;
         align-items: center;
     }
@@ -320,15 +325,17 @@
     }
 
     .walletconnection-left {
-        width: 66%;
+        width: 66% !important;
         padding: 0px 10px;
     }
 
     .signal {
         width: 1005;
+        margin-right: 40px;
     }
 
     .howorks-text {
+        text-align: left;
         background-color: #2C2F36;
         padding: 30px 0px;
         font-weight: 400;
@@ -379,6 +386,13 @@
 
     }
 
+    .claimlink {
+        color: #FFB449 !important;
+        border-bottom: 1px solid #FFB449;
+        margin-right: 10px;
+        padding-bottom: 3px;
+    }
+
     .home-about {
         background-color: #FFB449;
         padding: 67px 0px;
@@ -396,10 +410,9 @@
 
     .home-rules-bg {
         background: url(/assets/images/rules_bg.png);
-        background-size: cover;
+        background-size: 100% 100%;
         position: relative;
         padding: 60px 80px;
-        height: 440px;
         display: flex;
         align-items: center;
     }
@@ -603,6 +616,12 @@
 
     }
 
+    .claimlink {
+        color: #FFB449 !important;
+        border-bottom: 1px solid #FFB449;
+        margin-right: 10px;
+    }
+
     .home-about {
         background-color: #FFB449;
         padding: 67px 0px;
@@ -620,10 +639,9 @@
 
     .home-rules-bg {
         background: url(/assets/images/rules_bg.png);
-        background-size: cover;
+        background-size: 100% 100%;
         position: relative;
         padding: 60px 80px;
-        height: 360px;
         display: flex;
         align-items: center;
     }
@@ -855,6 +873,13 @@
 
     }
 
+    .claimlink {
+        color: #FFB449 !important;
+        border-bottom: 1px solid #FFB449;
+        margin-right: 10px;
+        margin-left: 32px;
+    }
+
     .home-about {
         background-color: #FFB449;
         padding: 30px 0px;
@@ -872,10 +897,9 @@
 
     .home-rules-bg {
         background: url(/assets/images/rules_bg.png);
-        background-size: cover;
+        background-size: 100% 100%;
         position: relative;
         padding: 40px 30px;
-        height: 360px;
         display: flex;
         align-items: center;
     }
@@ -1129,10 +1153,9 @@
 
     .home-rules-bg {
         background: url(/assets/images/rules_bg.png);
-        background-size: cover;
+        background-size: 100% 100%;
         position: relative;
         padding: 40px 30px;
-        height: 360px;
         display: flex;
         align-items: center;
     }
@@ -1147,7 +1170,7 @@
         border: 1px solid #FFB449;
         border-radius: 6px;
         color: white;
-        padding: 10px 20px;
+        padding: 10px 10px;
         font-family: 'Inter';
         font-style: normal;
         font-weight: 900;
@@ -1193,7 +1216,7 @@
     .home-stake-right {
         margin: auto;
         order: 1;
-        width: 70% !important;
+        width: 80% !important;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -1295,15 +1318,15 @@
         justify-content: center;
         align-items: center;
         position: absolute;
-        padding: 25px 10px;
+        padding: 25px 6px;
         right: 0;
         top: 8%;
     }
 
     .APY .bigtext {
         font-weight: 700;
-        font-size: 18px;
-        line-height: 25px;
+        font-size: 15px;
+        line-height: 13px;
         text-transform: uppercase;
         color: #2C2F36;
     }

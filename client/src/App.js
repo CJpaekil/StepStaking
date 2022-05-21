@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <div>
+      <div style={{ overflowY: "scroll" }}>
         <Routes location={location}>
           <Route path="/" element={<HomePage />}></Route>
           <Route path="/Home" element={<HomePage />}></Route>
@@ -18,7 +18,7 @@ function App() {
         </Routes>
       </div>
       <Footer />
-    </div>
+    </div >
   );
 }
 
